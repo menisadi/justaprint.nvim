@@ -1,4 +1,4 @@
--- lua/justaprint.nvim/core.lua
+-- lua/justaprint.nvim.lua
 local M = {}
 
 function M.hello()
