@@ -1,1 +1,1 @@
-vim.notify("Loaded justaprint.nvim", vim.log.levels.INFO)
+-- vim.notify("Loaded justaprint.nvim", vim.log.levels.INFO)
