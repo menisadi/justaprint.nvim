@@ -2,12 +2,10 @@
 local M = {}
 
 function M.hello()
-	print("Hello, Neovim!")
+	vim.notify("Hello, Neovim!", vim.log.levels.INFO)
 end
 
 function M.setup()
-	print("Hello, Neovim!")
-
 	-- Create a command that calls the hello function
 	vim.api.nvim_create_user_command("PrintHello", M.hello, {})
 
